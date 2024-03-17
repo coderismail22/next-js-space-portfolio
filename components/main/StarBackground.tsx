@@ -6,6 +6,7 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
+// This is stars background
 const StarBackground = (props: any) => {
   const ref: any = useRef();
   const [sphere] = useState(() =>
